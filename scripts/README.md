@@ -377,3 +377,67 @@ $stmt->execute();
 5. ✅ **Hide error messages** - Don't leak database structure
 6. ✅ **Test regularly** - Integrate security in CI/CD
 7. ✅ **Stay updated** - Monitor OWASP Top 10 and CVE databases
+
+## XSS Exploitation Tool
+
+### Description
+Automated Cross-Site Scripting (XSS) exploitation tool for DVWA training. Tests both reflected and stored XSS vulnerabilities with multiple payload variations.
+
+### Features
+- ✅ Reflected XSS testing (8 different payloads)
+- ✅ Stored XSS testing (3 test cases)
+- ✅ Automatic CSRF token handling
+- ✅ Session management
+- ✅ Colored output with progress tracking
+- ✅ Verbose debugging mode
+- ✅ Selective testing options
+
+### Usage
+
+**Basic usage:**
+```bash
+python3 xss_exploit.py
+```
+
+**With options:**
+```bash
+# Verbose mode
+python3 xss_exploit.py -v
+
+# Custom credentials
+python3 xss_exploit.py -u admin -p yourpassword
+
+# Test only reflected XSS
+python3 xss_exploit.py --reflected-only
+
+# Test only stored XSS
+python3 xss_exploit.py --stored-only
+```
+
+### Requirements
+```bash
+pip3 install requests beautifulsoup4 colorama
+```
+
+### Test Results (Latest Run)
+- **Reflected XSS**: All payloads successful on LOW security
+- **Stored XSS**: All test cases successful on LOW security
+- **Status**: ✅ Fully functional
+
+### Learning Outcomes
+1. Understanding XSS attack vectors
+2. Difference between reflected and stored XSS
+3. CSRF token handling in web applications
+4. HTTP session management
+5. Payload encoding and filtering bypass techniques
+
+### Next Steps
+- Test against MEDIUM security level
+- Implement encoding bypass techniques
+- Add DOM-based XSS testing
+- Create reporting functionality
+
+---
+**Author**: Daniel Oyanogbezina
+**Date**: December 2025
+**Purpose**: Educational security training only
