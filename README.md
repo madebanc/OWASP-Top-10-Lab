@@ -106,7 +106,7 @@ sql
 
 All exploitation steps documented with screenshots:
 
-![SQL Syntax Error](../../screenshots/sql-01-syntax-error.png)
+![SQL Syntax Error][(../../screenshots/sql-01-syntax-error.png)](https://github.com/madebanc/OWASP-Top-10-Lab/blob/main/screenshots/sql-01-syntax-error.png?raw=true)
 *Initial vulnerability discovery - single quote causes SQL error*
 
 ![Boolean Bypass](../../screenshots/sql-02-boolean-bypass.png)
