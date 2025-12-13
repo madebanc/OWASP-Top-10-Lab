@@ -106,22 +106,28 @@ sql
 
 All exploitation steps documented with screenshots:
 
-![SQL Syntax Error][(../../screenshots/sql-01-syntax-error.png)](https://github.com/madebanc/OWASP-Top-10-Lab/blob/main/screenshots/sql-01-syntax-error.png?raw=true)
+![SQL Syntax Error]<img width="961" height="507" alt="sql-01-syntax-error" src="https://github.com/user-attachments/assets/76ea3633-5110-4f58-b6fe-b9a805b11bb3" />
+
 *Initial vulnerability discovery - single quote causes SQL error*
 
-![Boolean Bypass](../../screenshots/sql-02-boolean-bypass.png)
+![Boolean Bypass]<img width="960" height="540" alt="sql-boolean-bypass" src="https://github.com/user-attachments/assets/2be75d17-84a4-447e-b06f-b9615569c0ab" />
+
 *Authentication bypass using boolean logic*
 
-![Database Enumeration](../../screenshots/sql-03-database-name.png)
+![Database Enumeration]<img width="1920" height="1080" alt="sql-03-database-name" src="https://github.com/user-attachments/assets/5571621c-02c9-4e41-8612-89907895d6d4" />
+
 *Database name extraction*
 
-![Table Discovery](../../screenshots/sql-04-table-names.png)
+![Table Discovery]<img width="960" height="540" alt="sql-04-table-names" src="https://github.com/user-attachments/assets/53af35cb-7969-4809-a0b6-abac41d1b8b0" />
+
 *Enumeration of database tables*
 
-![Column Discovery](../../screenshots/sql-05-column-names.png)
+![Column Discovery]<img width="960" height="540" alt="sql-05-column-names" src="https://github.com/user-attachments/assets/1dd52d9a-1b57-4981-bc97-ca1f0a5c0c6f" />
+
 *Column names extracted from users table*
 
-![Credential Extraction](../../screenshots/sql-06-credentials-extracted.png)
+![Credential Extraction]<img width="960" height="540" alt="sql-06-credentials-extracted" src="https://github.com/user-attachments/assets/c9746854-c232-4db9-abb1-1fba8a397b65" />
+
 *Complete credential dump - proof of exploitation*
 
 ## 🛡️ Impact Assessment
