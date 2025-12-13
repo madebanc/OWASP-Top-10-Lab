@@ -381,3 +381,25 @@ $stmt->execute();
 5. ✅ **Hide error messages** - Don't leak database structure
 6. ✅ **Test regularly** - Integrate security in CI/CD
 7. ✅ **Stay updated** - Monitor OWASP Top 10 and CVE databases
+
+## Recent Updates
+
+### XSS Exploitation Tool (December 2025)
+Successfully implemented and tested automated XSS exploitation framework for DVWA.
+
+**Test Results:**
+- ✅ Reflected XSS: 8/8 payloads successful (LOW security)
+- ✅ Stored XSS: 3/3 test cases successful (LOW security)
+
+**Key Features:**
+- Automated authentication and session management
+- CSRF token extraction and handling
+- Multiple payload testing with detailed reporting
+- Command-line interface for flexible testing scenarios
+
+**Skills Developed:**
+- Web application security testing
+- HTTP protocol understanding
+- Python automation scripting
+- OWASP Top 10 vulnerability analysis
+
