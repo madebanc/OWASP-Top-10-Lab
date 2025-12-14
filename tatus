@@ -1,0 +1,5 @@
+[33m857f198[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m docs: Add XSS tool achievements to main README
+[33m8734ca2[m docs: Update README with XSS tool documentation and test results
+[33m2f8f36c[m Add XSS exploitation training tool
+[33m88e178b[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Complete SQL Injection project - successful exploitation and automation
+[33mdc55ecf[m Test authentication - add security badge
